@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1>CCCCC</h1>
+
 
       <?php
      //coment with two slash
