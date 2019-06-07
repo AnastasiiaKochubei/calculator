@@ -37,16 +37,24 @@
       echo $multiply;
       echo "<br>";
       ?>
+
       <?php
       echo round(3.6, 0);
       echo "<br>";
       ?>
+
       <?php
-      $a=66;
-      $procent=5;
-      $result = ($a*$procent)/100;
-      echo $result;
+      $a = 66;
+      $b = 5;
+
+      function percent(){
+          global $a, $b;
+          echo (($a * $b)/100);
+      }
+      percent();
       ?>
+        
+
 
 
 </body>
