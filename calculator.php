@@ -49,11 +49,15 @@
 
       function percent(){
           global $a, $b;
-          echo (($a * $b)/100);
+          echo (($a * $b)/100),"<br>";
       }
       percent();
+      
+      echo sqrt($a), "<br>";;
+
+
       ?>
-        
+
 
 
 
